@@ -15,15 +15,15 @@ MonoBehaviour:
   Items:
   - Title: Chair
     Prefab: {fileID: 8142453941544647283, guid: fc69a2efe00e75b4ba01809ccac71ed0, type: 3}
-    Price: 100
+    Price: 400
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Scaf
     Prefab: {fileID: 8295447486349884026, guid: 6dad820d6987d1b44a7e54ed7e8b9193, type: 3}
-    Price: 500
+    Price: 700
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Table
     Prefab: {fileID: 6628545286122669278, guid: ba0e07cbc7334604986f750e49e5129a, type: 3}
-    Price: 300
+    Price: 500
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Column
     Prefab: {fileID: 1000011870303430, guid: 768418fcb9d5b91468126e52b41cbe0c, type: 3}
@@ -31,19 +31,19 @@ MonoBehaviour:
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Sofa
     Prefab: {fileID: 7592977215538603244, guid: e339cb1a1a998204d9505bbd9eb5e00e, type: 3}
-    Price: 350
+    Price: 900
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Lamp
     Prefab: {fileID: 6793243976408747254, guid: d10d30559477e404d9110a84510ca722, type: 3}
-    Price: 150
+    Price: 250
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Fan
     Prefab: {fileID: 5196809518577223273, guid: f05f99cc9908e134a99345a0479aa45a, type: 3}
-    Price: 150
+    Price: 600
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Flower
     Prefab: {fileID: 375943949206235683, guid: f1a792965c042d2469c0ec062335e0e2, type: 3}
-    Price: 150
+    Price: 300
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
   - Title: Rotate
     Prefab: {fileID: 2727384403417329108, guid: 6200756e98fe8184ca4a41ed84f258ee, type: 3}
