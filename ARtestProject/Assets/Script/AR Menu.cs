@@ -18,7 +18,7 @@ public partial class ARMenu : MonoBehaviour
         ButtonUpdate();
     }
 
-    private void ButtonUpdate()
+    public void ButtonUpdate()
     {
         for(int i = 0; i < _root.childCount; i++)
         {

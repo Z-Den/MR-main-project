@@ -8051,7 +8051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc333b7f7162fe438229999b0aad753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPrefab: {fileID: 0}
+  money: {fileID: 0}
 --- !u!114 &1720518618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8932,13 +8932,13 @@ MonoBehaviour:
   layout: 0
   anchor: 0
   anchorAlongAxis: 0
-  columnAlignment: 0
+  columnAlignment: 1
   rowAlignment: 0
   radius: 2
   radialRange: 180
   distance: 0
   rows: 2
-  columns: 2
+  columns: 3
   cellWidth: 0.032
   cellHeight: 0.032
   assetVersion: 1
@@ -10443,7 +10443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc333b7f7162fe438229999b0aad753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPrefab: {fileID: 0}
+  money: {fileID: 0}
 --- !u!114 &2011553903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11274,13 +11274,14 @@ GameObject:
   - component: {fileID: 2064607005}
   - component: {fileID: 2064607004}
   - component: {fileID: 2064607003}
+  - component: {fileID: 2064607010}
   m_Layer: 0
   m_Name: Delete all
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2064607002
 Transform:
   m_ObjectHideFlags: 0
@@ -11479,9 +11480,9 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ExitDialog, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 2064607010}
+        m_TargetAssemblyTypeName: RemoveAll, Assembly-CSharp
+        m_MethodName: destroy
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11791,6 +11792,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.032, y: 0.032, z: 0.016}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2064607010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064607001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9da9ce78f404d84da81da0161ec2234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _money: {fileID: 2081424738}
+  _arMenu: {fileID: 8434525609375435643}
 --- !u!1 &2081424736
 GameObject:
   m_ObjectHideFlags: 0
@@ -11802,6 +11817,7 @@ GameObject:
   - component: {fileID: 2081424737}
   - component: {fileID: 2081424738}
   - component: {fileID: 2081424739}
+  - component: {fileID: 2081424740}
   m_Layer: 0
   m_Name: MixedRealityPlayspace
   m_TagString: Untagged
@@ -11837,8 +11853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f07cc7b0b6c4794e8218b8972f70acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneyAmount: 4000
   _itemSpawn: {fileID: 2081424739}
+  moni: 0
 --- !u!114 &2081424739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11851,7 +11867,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc333b7f7162fe438229999b0aad753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPrefab: {fileID: 0}
+  money: {fileID: 2081424738}
+--- !u!114 &2081424740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081424736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cfd23ff8748c446b44989c6b96df63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rightArm: {fileID: 0}
+  _leftArm: {fileID: 0}
 --- !u!1 &2083740764
 GameObject:
   m_ObjectHideFlags: 0
@@ -12921,7 +12951,7 @@ MonoBehaviour:
   tickMarks: {fileID: 0}
   thumbVisuals: {fileID: 0}
   sliderAxis: 0
-  sliderStartDistance: -0.12499994
+  sliderStartDistance: -0.12500003
   sliderEndDistance: 0.12500006
   OnValueUpdated:
     m_PersistentCalls:
