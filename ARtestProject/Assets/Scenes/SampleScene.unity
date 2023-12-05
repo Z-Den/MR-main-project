@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 11911633}
   - component: {fileID: 11911632}
   - component: {fileID: 11911631}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0109}
+  m_AnchoredPosition: {x: -0.0021, y: -0.0127}
   m_SizeDelta: {x: 0.032, y: 0.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11911631
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cancel
+  m_text: "\u041D\u0435\u0442\u043E\u0447\u043D\u043E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -0.0022691963, z: 0, w: 0}
+  m_margin: {x: 0, y: -0.0022691963, z: -0.005226692, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 129901665}
   - component: {fileID: 129901664}
   - component: {fileID: 129901663}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,6 +1014,111 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &148288705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148288709}
+  - component: {fileID: 148288708}
+  - component: {fileID: 148288707}
+  - component: {fileID: 148288706}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &148288706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148288705}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &148288707
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148288705}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &148288708
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148288705}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &148288709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148288705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157252204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157252205}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1163,7 @@ GameObject:
   - component: {fileID: 158416655}
   - component: {fileID: 158416654}
   - component: {fileID: 158416653}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1104,7 +1209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Confirm
+  m_text: "\u0422\u043E\u0447\u043D\u043E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -1239,7 +1344,7 @@ GameObject:
   - component: {fileID: 168695294}
   - component: {fileID: 168695293}
   - component: {fileID: 168695292}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1424,7 +1529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172800363}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1456,7 +1561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 178989096}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1596,7 @@ GameObject:
   - component: {fileID: 183531020}
   - component: {fileID: 183531019}
   - component: {fileID: 183531018}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1792,7 +1897,7 @@ GameObject:
   - component: {fileID: 247826098}
   - component: {fileID: 247826097}
   - component: {fileID: 247826096}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2080,7 +2185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285433880}
   - component: {fileID: 285433881}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,7 +2271,7 @@ GameObject:
   - component: {fileID: 294901307}
   - component: {fileID: 294901306}
   - component: {fileID: 294901305}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2262,7 +2367,7 @@ GameObject:
   - component: {fileID: 315711292}
   - component: {fileID: 315711294}
   - component: {fileID: 315711293}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2345,7 +2450,7 @@ GameObject:
   - component: {fileID: 316583377}
   - component: {fileID: 316583379}
   - component: {fileID: 316583378}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,7 +2535,7 @@ GameObject:
   - component: {fileID: 320887933}
   - component: {fileID: 320887932}
   - component: {fileID: 320887931}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2827,7 +2932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 330369321}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2862,7 +2967,7 @@ GameObject:
   - component: {fileID: 342357918}
   - component: {fileID: 342357917}
   - component: {fileID: 342357916}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3074,7 +3179,7 @@ GameObject:
   - component: {fileID: 357049763}
   - component: {fileID: 357049765}
   - component: {fileID: 357049764}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Clipping Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3147,7 +3252,7 @@ GameObject:
   - component: {fileID: 362843843}
   - component: {fileID: 362843842}
   - component: {fileID: 362843841}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3341,7 +3446,7 @@ GameObject:
   - component: {fileID: 383884626}
   - component: {fileID: 383884628}
   - component: {fileID: 383884627}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3440,7 +3545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386880149}
   - component: {fileID: 386880150}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3531,7 +3636,7 @@ GameObject:
   - component: {fileID: 409564794}
   - component: {fileID: 409564793}
   - component: {fileID: 409564800}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Reject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4071,7 +4176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 414501987}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4109,7 +4214,7 @@ GameObject:
   - component: {fileID: 455015912}
   - component: {fileID: 455015911}
   - component: {fileID: 455015910}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4205,7 +4310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 458602543}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4244,7 +4349,7 @@ GameObject:
   - component: {fileID: 489114601}
   - component: {fileID: 489114600}
   - component: {fileID: 489114599}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4358,7 +4463,7 @@ GameObject:
   - component: {fileID: 526614951}
   - component: {fileID: 526614950}
   - component: {fileID: 526614949}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4767,7 +4872,7 @@ GameObject:
   - component: {fileID: 722112775}
   - component: {fileID: 722112774}
   - component: {fileID: 722112773}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4865,7 +4970,7 @@ GameObject:
   - component: {fileID: 724392452}
   - component: {fileID: 724392454}
   - component: {fileID: 724392453}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4949,7 +5054,7 @@ GameObject:
   - component: {fileID: 731670178}
   - component: {fileID: 731670177}
   - component: {fileID: 731670176}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5131,7 +5236,7 @@ GameObject:
   - component: {fileID: 735725035}
   - component: {fileID: 735725034}
   - component: {fileID: 735725033}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5333,7 +5438,7 @@ GameObject:
   - component: {fileID: 837898715}
   - component: {fileID: 837898717}
   - component: {fileID: 837898716}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5414,7 +5519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876109732}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,7 +5551,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893342168}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5478,7 +5583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 928609486}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5513,7 +5618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940818397}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5734,7 +5839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 980607665}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5770,7 +5875,7 @@ GameObject:
   - component: {fileID: 1025934484}
   - component: {fileID: 1025934483}
   - component: {fileID: 1025934482}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5958,7 +6063,7 @@ GameObject:
   - component: {fileID: 1037088956}
   - component: {fileID: 1037088955}
   - component: {fileID: 1037088954}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6004,7 +6109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Remove all
+  m_text: "\n\u0423\u0431\u0440\u0430\u0442\u044C \u0432\u0441\u0451"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -6138,7 +6243,7 @@ GameObject:
   - component: {fileID: 1051927269}
   - component: {fileID: 1051927268}
   - component: {fileID: 1051927267}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6231,7 +6336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1095894140}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6262,7 +6367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108402246}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ScrollParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6294,7 +6399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1126751364}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6330,7 +6435,7 @@ GameObject:
   - component: {fileID: 1149654224}
   - component: {fileID: 1149654223}
   - component: {fileID: 1149654222}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6518,7 +6623,7 @@ GameObject:
   - component: {fileID: 1167208537}
   - component: {fileID: 1167208536}
   - component: {fileID: 1167208535}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6615,7 +6720,7 @@ GameObject:
   - component: {fileID: 1171663879}
   - component: {fileID: 1171663878}
   - component: {fileID: 1171663877}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6723,7 +6828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259040565}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6837,7 +6942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281792000}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6868,7 +6973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1286465328}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6901,7 +7006,7 @@ GameObject:
   - component: {fileID: 1300370970}
   - component: {fileID: 1300370972}
   - component: {fileID: 1300370971}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6984,7 +7089,7 @@ GameObject:
   - component: {fileID: 1302262241}
   - component: {fileID: 1302262243}
   - component: {fileID: 1302262242}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7311,7 +7416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1509157390}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7343,7 +7448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1575011572}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7375,7 +7480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1596368049}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7600,7 +7705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1678198596}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7747,7 +7852,7 @@ GameObject:
   - component: {fileID: 1682908224}
   - component: {fileID: 1682908223}
   - component: {fileID: 1682908222}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Scrolling Object Collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7907,7 +8012,7 @@ GameObject:
   - component: {fileID: 1720518619}
   - component: {fileID: 1720518618}
   - component: {fileID: 1720518617}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7947,6 +8052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!114 &1720518618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8600,7 +8706,7 @@ GameObject:
   - component: {fileID: 1750613305}
   - component: {fileID: 1750613304}
   - component: {fileID: 1750613303}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8695,7 +8801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1756139245}
   - component: {fileID: 1756139246}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Grid Object Collection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8846,7 +8952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1780916461}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8881,7 +8987,7 @@ GameObject:
   - component: {fileID: 1782689207}
   - component: {fileID: 1782689206}
   - component: {fileID: 1782689205}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8985,7 +9091,7 @@ GameObject:
   - component: {fileID: 1820911777}
   - component: {fileID: 1820911776}
   - component: {fileID: 1820911783}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Confirm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9527,7 +9633,7 @@ GameObject:
   - component: {fileID: 1825104915}
   - component: {fileID: 1825104914}
   - component: {fileID: 1825104913}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9723,7 +9829,7 @@ GameObject:
   - component: {fileID: 1867157085}
   - component: {fileID: 1867157084}
   - component: {fileID: 1867157083}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9832,7 +9938,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1912524664}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9864,7 +9970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1917194096}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10080,7 +10186,7 @@ GameObject:
   - component: {fileID: 1991506654}
   - component: {fileID: 1991506653}
   - component: {fileID: 1991506652}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10176,7 +10282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994343626}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10210,7 +10316,7 @@ GameObject:
   - component: {fileID: 2003245231}
   - component: {fileID: 2003245233}
   - component: {fileID: 2003245232}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10299,7 +10405,7 @@ GameObject:
   - component: {fileID: 2011553904}
   - component: {fileID: 2011553903}
   - component: {fileID: 2011553902}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Confirm Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10339,6 +10445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!114 &2011553903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10838,7 +10945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020152813}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10873,7 +10980,7 @@ GameObject:
   - component: {fileID: 2028004497}
   - component: {fileID: 2028004496}
   - component: {fileID: 2028004495}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11054,7 +11161,7 @@ GameObject:
   - component: {fileID: 2041472449}
   - component: {fileID: 2041472448}
   - component: {fileID: 2041472447}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11170,7 +11277,7 @@ GameObject:
   - component: {fileID: 2064607004}
   - component: {fileID: 2064607003}
   - component: {fileID: 2064607010}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Delete all
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11763,6 +11870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 2081424738}
+  spawnPoint: {fileID: 963194228}
 --- !u!114 &2081424740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11775,8 +11883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71cfd23ff8748c446b44989c6b96df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rightArm: {fileID: 0}
-  _leftArm: {fileID: 0}
 --- !u!1 &2083740764
 GameObject:
   m_ObjectHideFlags: 0
@@ -11831,7 +11937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2095140539}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11864,7 +11970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125249272}
   - component: {fileID: 2125249273}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12095,7 +12201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4379676955379300816}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LabelPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12169,7 +12275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6853127136263759261}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ButtonContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12308,7 +12414,7 @@ GameObject:
   - component: {fileID: 8434525611168700066}
   - component: {fileID: 8434525611168700067}
   - component: {fileID: 2857097243698102015}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12326,7 +12432,7 @@ GameObject:
   - component: {fileID: 1787181497863910976}
   - component: {fileID: 5060342428867924972}
   - component: {fileID: 3514737787300782049}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12350,7 +12456,7 @@ GameObject:
   - component: {fileID: 3211110220905670972}
   - component: {fileID: 1999291040637873023}
   - component: {fileID: 9223148616319533491}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12369,7 +12475,7 @@ GameObject:
   - component: {fileID: 5320673011559424081}
   - component: {fileID: 1680302032985692941}
   - component: {fileID: 6115452744567423796}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TouchCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12646,7 +12752,7 @@ GameObject:
   - component: {fileID: 2789219980038255889}
   - component: {fileID: 2789219980039583025}
   - component: {fileID: 2789219980040681457}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Slider_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12715,7 +12821,7 @@ GameObject:
   - component: {fileID: 4397541094933385610}
   - component: {fileID: 5956811545374476989}
   - component: {fileID: 7949228793755157047}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ThumbCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12777,7 +12883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2974759218603618051}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SliderThumb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12796,7 +12902,7 @@ GameObject:
   - component: {fileID: 2974759218750774398}
   - component: {fileID: 2974759218750774399}
   - component: {fileID: 2974759218750774400}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TouchSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12996,7 +13102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2974759219184109243}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TrackVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13013,7 +13119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2974759219980338614}
   - component: {fileID: 2974759219980338615}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button_AnimationContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13126,7 +13232,7 @@ GameObject:
   - component: {fileID: 2974759220267122025}
   - component: {fileID: 2974759220267122039}
   - component: {fileID: 2974759220267122024}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SliderTrackSimple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13161,7 +13267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: "\u0412\u044B\u0439\u0442\u0438"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -13261,7 +13367,7 @@ GameObject:
   - component: {fileID: 7362459094564172671}
   - component: {fileID: 3164126936683912055}
   - component: {fileID: 6229245613093283377}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FrontPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13621,7 +13727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3072076502820197938}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Backplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13638,7 +13744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 947845018756211889}
   - component: {fileID: 3726488993715205427}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonSpriteIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13766,7 +13872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4365567808259697262}
   - component: {fileID: 4399634475128414380}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GroupA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13785,7 +13891,7 @@ GameObject:
   - component: {fileID: 4390593859483380480}
   - component: {fileID: 4379878451745798546}
   - component: {fileID: 4430232030910327792}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DotA01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13804,7 +13910,7 @@ GameObject:
   - component: {fileID: 4387627466490017340}
   - component: {fileID: 4381836905853129754}
   - component: {fileID: 4429942066324779544}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DotB02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13823,7 +13929,7 @@ GameObject:
   - component: {fileID: 4390435279505079864}
   - component: {fileID: 4380247091538985816}
   - component: {fileID: 4430250242182833846}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DotA02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13839,7 +13945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4365309515440666862}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IndeterminateLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13858,7 +13964,7 @@ GameObject:
   - component: {fileID: 4390185398776880676}
   - component: {fileID: 4380061613635465982}
   - component: {fileID: 4429685045965219094}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DotB01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13875,7 +13981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4362678248201976016}
   - component: {fileID: 4399339289768171462}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GroupB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14759,7 +14865,7 @@ GameObject:
   - component: {fileID: 5489765652574333240}
   - component: {fileID: 5489765652574333242}
   - component: {fileID: 5489765652574333237}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TouchSliderValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14884,7 +14990,7 @@ GameObject:
   - component: {fileID: 9216361783206337602}
   - component: {fileID: 3905657412189221924}
   - component: {fileID: 8985429527983060094}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UIButtonCharIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14984,7 +15090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2422186820330855611}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: IconAndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15092,7 +15198,7 @@ GameObject:
   - component: {fileID: 4603247806863482038}
   - component: {fileID: 6573249033361786640}
   - component: {fileID: 7703546240121248080}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15130,7 +15236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1850471848876145430}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BackPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15164,7 +15270,7 @@ GameObject:
   - component: {fileID: 7592917356644675920}
   - component: {fileID: 2746755129745070048}
   - component: {fileID: 5992421056137223261}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HighlightPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15257,7 +15363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9020582940079686895}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Backplate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15291,7 +15397,7 @@ GameObject:
   - component: {fileID: 3694734704123827313}
   - component: {fileID: 5003003252368655001}
   - component: {fileID: 3396972817785762263}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15338,7 +15444,7 @@ GameObject:
   - component: {fileID: 8434525609375435640}
   - component: {fileID: 8434525609375435642}
   - component: {fileID: 8434525609375435643}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DynamicScrollPopulator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15389,8 +15495,8 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   referenceDirection: 1
-  minDistance: 0.5
-  maxDistance: 0.6
+  minDistance: 0.6
+  maxDistance: 0.7
   minViewDegrees: 0
   maxViewDegrees: 20
   aspectV: 1
@@ -15643,7 +15749,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Scrolling list
+  m_text: "\u041C\u0435\u043D\u044E\u0448\u043A\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -15735,7 +15841,7 @@ GameObject:
   - component: {fileID: 8434525611182994639}
   - component: {fileID: 8434525611182994633}
   - component: {fileID: 8434525611182994632}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DescriptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15814,7 +15920,7 @@ GameObject:
   - component: {fileID: 2398458848257834638}
   - component: {fileID: 3162937905844521076}
   - component: {fileID: 5519851574300927199}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15830,7 +15936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2536345484097968219}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: CompressableButtonVisuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15957,7 +16063,7 @@ GameObject:
   - component: {fileID: 380403064583514567}
   - component: {fileID: 340933258484225195}
   - component: {fileID: 3055505525019059750}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TextMeshPro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16016,3 +16122,4 @@ SceneRoots:
   - {fileID: 2081424737}
   - {fileID: 702401998}
   - {fileID: 8434525609375435636}
+  - {fileID: 148288709}

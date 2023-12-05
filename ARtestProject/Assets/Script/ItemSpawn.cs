@@ -6,6 +6,7 @@ public class ItemSpawn : MonoBehaviour
 {
     private GameObject SpawnPrefab;
     [SerializeField] private PlayerMoney money;
+    [SerializeField] Transform spawnPoint;
     private List<GameObject> spawnList = new List<GameObject>();
     public void OnPress(GameObject spawnPrefab)
     {
@@ -22,11 +23,11 @@ public class ItemSpawn : MonoBehaviour
         }
         if (spawnPrefab.name == "Reset")
         {
-            spawnList[spawnList.Count - 1].transform.position = Vector3.up;
+            spawnList[spawnList.Count - 1].transform.position = spawnPoint.position + 1f * spawnPoint.transform.forward;
             spawnList[spawnList.Count - 1].transform.rotation = Quaternion.identity;
             return;
         }
-        SpawnPrefab = Instantiate(spawnPrefab, Vector3.up, Quaternion.identity);
+        SpawnPrefab = Instantiate(spawnPrefab, spawnPoint.position + 1f * spawnPoint.transform.forward, Quaternion.identity);
         spawnList.Add(SpawnPrefab);
     }
     public void ToDelete()

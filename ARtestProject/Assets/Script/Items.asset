@@ -13,51 +13,51 @@ MonoBehaviour:
   m_Name: Items
   m_EditorClassIdentifier: 
   Items:
-  - Title: Chair
+  - Title: "\u0421\u0442\u0443\u043B"
     Prefab: {fileID: 8142453941544647283, guid: fc69a2efe00e75b4ba01809ccac71ed0, type: 3}
     Price: 400
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Scaf
+  - Title: "\u0428\u043A\u0430\u0444"
     Prefab: {fileID: 8295447486349884026, guid: 6dad820d6987d1b44a7e54ed7e8b9193, type: 3}
     Price: 700
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Table
+  - Title: "\u0421\u0442\u043E\u043B"
     Prefab: {fileID: 6628545286122669278, guid: ba0e07cbc7334604986f750e49e5129a, type: 3}
     Price: 500
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Column
+  - Title: "\u041A\u043E\u043B\u043E\u043D\u043D\u0430"
     Prefab: {fileID: 1000011870303430, guid: 768418fcb9d5b91468126e52b41cbe0c, type: 3}
     Price: 600
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Sofa
+  - Title: "\u0414\u0438\u0432\u0430\u043D"
     Prefab: {fileID: 7592977215538603244, guid: e339cb1a1a998204d9505bbd9eb5e00e, type: 3}
     Price: 900
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Lamp
+  - Title: "\u041B\u0430\u043C\u043F\u0430"
     Prefab: {fileID: 6793243976408747254, guid: d10d30559477e404d9110a84510ca722, type: 3}
     Price: 250
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Fan
+  - Title: "\u041A\u0440\u0443\u0442\u0438\u043B\u043A\u0430"
     Prefab: {fileID: 5196809518577223273, guid: f05f99cc9908e134a99345a0479aa45a, type: 3}
     Price: 600
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Hall table
+  - Title: "\u0415\u0449\u0451 \u0441\u0442\u043E\u043B"
     Prefab: {fileID: 7837998195094263446, guid: 120a437bc29570c48bdfe0590426cae9, type: 3}
     Price: 500
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Flower
+  - Title: "\u0426\u0432\u0435\u0442\u0438\u043A"
     Prefab: {fileID: 375943949206235683, guid: f1a792965c042d2469c0ec062335e0e2, type: 3}
     Price: 300
     Icon: {fileID: 21300000, guid: 0b57c1c4fe5441044b6063f13c6decf9, type: 3}
-  - Title: Rotate
+  - Title: "\u041F\u043E\u043A\u0440\u0443\u0442\u0438\u0442\u044C"
     Prefab: {fileID: 2727384403417329108, guid: 6200756e98fe8184ca4a41ed84f258ee, type: 3}
     Price: 0
     Icon: {fileID: 21300000, guid: 97fcf2a71f76ce349a7188ea7b79c22e, type: 3}
-  - Title: Delete the last
+  - Title: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u043A\u0440\u0430\u0439\u043D\u0438\u0439"
     Prefab: {fileID: 5119333121534271302, guid: 6259895041485a74897bfa92b5bcb1b8, type: 3}
     Price: 0
     Icon: {fileID: 21300000, guid: 9b1d209a210356244935adde0dd7dd3d, type: 3}
-  - Title: Reset Position
+  - Title: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u043C\u0435\u0441\u0442\u043E"
     Prefab: {fileID: 5774744465505576606, guid: 2467ef704f9bdb1459282ef6558b7794, type: 3}
     Price: 0
     Icon: {fileID: 21300000, guid: 803117242df212744bf03cc6bb5620c8, type: 3}
