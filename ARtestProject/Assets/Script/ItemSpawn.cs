@@ -35,6 +35,6 @@ public class ItemSpawn : MonoBehaviour
         GameObject delObject = spawnList[spawnList.Count - 1];
         Destroy(delObject);
         spawnList.Remove(delObject);
-        money.ProcessBuy(money.moni - 4000, null);
+        money.ProcessBuy(-600, null);
     }
 }
